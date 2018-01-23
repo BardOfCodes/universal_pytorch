@@ -50,16 +50,6 @@ Using this information, we can find out the input range:<br>
 ```
 From this we calculate the input range to be 4.765. The norm limits for the perturbations have been shifted accordingly.
 
-## Performance of UAPs:
-
-Data Independent UAPs for VGG16 and ResNet18 have been provided. The performance is as follows:
-
-
-| **Model** | **Training Performance** | **Evaluation Performance** |
-|---|---|---|
-|**VGG 16** | 92.39 % | 92.726 % |
-|**ResNet 18** | 88.88 % | 88.584 % |
-
 ## Future enhancements:
 
 * The batch deepfool has to be made more efficient. Mechanism such that in each iteration, forward pass is performed only for images in batch which have not yet been fooled has to be added.
