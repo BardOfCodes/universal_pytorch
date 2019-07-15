@@ -1,4 +1,4 @@
-# Universal Adverserial Perturbation
+# Universal Adversarial Perturbation
 
 This code contains implementation of the following papers in pytorch.
 
